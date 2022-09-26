@@ -1,0 +1,49 @@
+body,html{
+    padding:0px;
+    margin:0px;
+}
+.body{
+    min-height: 100px;
+    width: 100%;   
+    background-color: purple;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+.body1{
+    min-height: 570px;
+    width: 100%;   
+    background-color: purple;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+.word{
+    color: white;
+    font-weight: bolder;
+    display: block;
+  
+}
+.todo{
+    
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+}
+#input{
+    width: 300px;
+    border-radius: 25px;
+    background-color: purple;
+    color: white;
+    outline: none;
+}
+#butt{
+    background-color: green;
+    
+}
+
+@media(max-width:320px){
+    #input{
+        width: 150px;
+    }
+}
